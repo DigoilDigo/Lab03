@@ -1,9 +1,6 @@
 from operator import attrgetter
 
-
-# ==========================================
 # CLASSE STRUMENTO
-# ==========================================
 class Strumento:
     """Modella un singolo strumento musicale nel deposito."""
 
@@ -22,10 +19,7 @@ class Strumento:
     def __repr__(self):
         return self.__str__()
 
-
-# ==========================================
 # CLASSE PRESTITO
-# ==========================================
 class Prestito:
     """Modella il prestito di uno strumento a un allievo."""
 
@@ -44,9 +38,7 @@ class Prestito:
         return self.__str__()
 
 
-# ==========================================
 # CLASSE DEPOSITO STRUMENTI
-# ==========================================
 class DepositoStrumenti:
     """Gestisce l'inventario degli strumenti e i relativi prestiti."""
 
